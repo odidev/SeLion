@@ -1,6 +1,9 @@
 dist: trusty
 language: java
 sudo: required
+arch:
+  - arm64
+  - amd64
 jdk:
   - oraclejdk8
 addons:
