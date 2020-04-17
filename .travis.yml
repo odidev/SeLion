@@ -12,6 +12,7 @@ addons:
   firefox: latest-esr
   apt:
     packages:
+      - update
       - mvn
 cache:
   directories:
